@@ -8,14 +8,14 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Expandable_liste.Droid</RootNamespace>
     <AssemblyName>Expandable liste.Android</AssemblyName>
-    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
+    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -80,9 +80,9 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Expandable_liste\Expandable_liste.csproj">
-      <Project>{28742CD2-5322-4BE7-BCFD-BAF06E312AE2}</Project>
-      <Name>Expandable_liste</Name>
+    <ProjectReference Include="..\Expandable liste\Expandable liste.csproj">
+      <Project>{b15ce93f-a69c-44d1-b9ce-6df99e76b8e4}</Project>
+      <Name>Expandable liste</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

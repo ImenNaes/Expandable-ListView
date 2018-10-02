@@ -121,11 +121,11 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.1.0.637273" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\Expandable_liste\Expandable_liste.csproj">
-      <Project>{28742CD2-5322-4BE7-BCFD-BAF06E312AE2}</Project>
-      <Name>Expandable_liste</Name>
+    <ProjectReference Include="..\Expandable liste\Expandable liste.csproj">
+      <Project>{b15ce93f-a69c-44d1-b9ce-6df99e76b8e4}</Project>
+      <Name>Expandable liste</Name>
     </ProjectReference>
   </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

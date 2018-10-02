@@ -101,7 +101,6 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="Expandable_liste.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\Default.rd.xml" />
@@ -152,9 +151,9 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.7" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Expandable_liste\Expandable_liste.csproj">
-      <Project>{28742CD2-5322-4BE7-BCFD-BAF06E312AE2}</Project>
-      <Name>Expandable_liste</Name>
+    <ProjectReference Include="..\Expandable liste\Expandable liste.csproj">
+      <Project>{b15ce93f-a69c-44d1-b9ce-6df99e76b8e4}</Project>
+      <Name>Expandable liste</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
