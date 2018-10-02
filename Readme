@@ -1,0 +1,13 @@
+This project was created in Visual Studio 2017 15.6.2.
+you fall into this problem:
+"Severity	Code	Description	Project	File	Line	Suppression State
+Error		Your project is not referencing the "MonoAndroid,Version=v8.1" framework. Add a reference to "MonoAndroid,Version=v8.1" in 
+the "frameworks" section of your project.json, and then re-run NuGet restore.	Expandable liste.Android"		
+
+Reason: file obj/project.assets.json target "MonoAndroid,Version=v7.1" when my project target android version 8.1
+I resolved it by:
+Right click Android project => Properties => Application => Compile using Android version => Android 7.1 
+Clean and Build project => build success, and restart IDE.
+Right click Android project => Properties => Application => Compile using Android version => Android 8.1 
+Clean and Build project => build success
+File obj/project.assets.json updated to "MonoAndroid,Version=v8.1"
